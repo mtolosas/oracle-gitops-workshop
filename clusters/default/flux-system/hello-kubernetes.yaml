@@ -14,8 +14,8 @@ spec:
         name: oracle-gitops-workshop
       interval: 1m
   targetNamespace: default
-  values: 
-    message: this is new one
-    valuesFrom:
+  values:
+    message: This is new one
+  valuesFrom:
   - kind: ConfigMap
     name: myconfig
